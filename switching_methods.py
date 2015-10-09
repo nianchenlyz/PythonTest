@@ -1,4 +1,4 @@
-# Python switching methods
+# Python switching methods from http://stackoverflow.com/questions/60208/replacements-for-switch-statement-in-python
 
 def f(x):
     return {
@@ -12,6 +12,13 @@ def f(x):
         'a': 1,
         'b': 2,
     }.get(x, 9)    # 9 is default if x not found
+
+
+result = {
+  'a': lambda x: x * 5,
+  'b': lambda x: x + 7,
+  'c': lambda x: x - 2
+}[value](x)
 
 
 
