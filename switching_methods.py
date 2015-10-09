@@ -1,5 +1,18 @@
 # Python switching methods from http://stackoverflow.com/questions/60208/replacements-for-switch-statement-in-python
 
+# standart language construct and doesn't throw a KeyError if no matching case is found
+if x == 'a':
+    # Do the thing
+elif x == 'b':
+    # Do the other thing
+if x in 'bc':
+    # Fall-through by not using elif, but now the default case includes case 'a'!
+elif x in 'xyz':
+    # Do yet another thing
+else:
+    # Do the default
+
+
 def f(x):
     return {
         'a': 1,
