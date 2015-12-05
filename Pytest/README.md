@@ -15,3 +15,7 @@ Checking version of your installation:
         # or
         This is pytest version 2.8.3, imported from $PYTHON_PREFIX/lib/site-packages/pytest.py
 
+Simple test function
+
+        py.test simple_test_function.py
+
