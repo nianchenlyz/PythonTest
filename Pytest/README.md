@@ -19,3 +19,8 @@ Simple test function
 
         py.test simple_test_function.py
 
+Running multiple tests
+
+        py.test   # will run all files and tests with names starting with test_
+                  # or ending with _test, like test_first.py or second_test.py
+
