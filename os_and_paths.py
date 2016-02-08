@@ -1,5 +1,8 @@
 import os
+""" Useful information in documentation
+    https://docs.python.org/2/library/os.path.html
 
+"""
 
 base_path = os.path.abspath('.')  # C:\\Users\\User_name or /home/user_name
 
