@@ -16,4 +16,5 @@ os.path.join('path', 'to', 'test', 'folder')  # path\\to\\test\\folder or path/t
 
 os.listdir('.')
 
-os.walk('.')
+for dirname, dirnames, filenames in os.walk('.'):
+    print dirname, filenames
