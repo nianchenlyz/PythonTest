@@ -7,3 +7,13 @@ for k, v in flowers:
 
 flowers_inventory.items()  #[('rose', [3, 7]), ('violet', [1]), ('tulip', [1, 5])]
 
+users = defaultdict(lambda: 'male')
+users['Catherine'] = 'female'
+users['Monique'] = 'female'
+users['Sylvie'] = 'female'
+
+#  {'Catherine': 'female', 'Monique': 'female', 'Sylvie': 'female'})
+
+users['Sylvie']  # 'female'
+users['Adam']  # 'male'
+
