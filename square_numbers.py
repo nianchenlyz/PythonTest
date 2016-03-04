@@ -18,3 +18,7 @@ def square_numbers2():
 
 print list(square_numbers2())
 
+# or
+for number in square_numbers2():
+	print number
+
