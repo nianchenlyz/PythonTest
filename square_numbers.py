@@ -7,3 +7,14 @@ def square_numbers1():
 
 print square_numbers1()
 
+
+def square_numbers2():
+    """ Computes square numbers with use of generator
+
+    :return: generator of square numbers
+    """
+    for number in xrange(1,2001):
+    	yield number*number
+
+print list(square_numbers2())
+
